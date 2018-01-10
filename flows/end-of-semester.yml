@@ -1,0 +1,36 @@
+chunks:
+
+-
+    title: "Congraulations"
+    id: end-of-semester
+    rules:
+    -
+        if_after: end_week 3
+        if_before: 2038-01-01 13:00:00 -5
+        weight: 100
+
+    -
+        weight: 0
+
+    content: |
+
+       Congradulations, you have aced this class.
+-
+    title: "Exam pointer"
+
+    id: exam_pointer
+    rules:
+    -
+        if_in_facility: test_center
+        if_after: 2015-06-01
+        weight: 200
+
+    -
+        shown: False
+        weight: 0
+
+    content: |
+
+        # Welcome to the computer-based testing facility!
+
+        <a href="flow:exam-1" class="btn btn-default">Start exam &raquo;</a>

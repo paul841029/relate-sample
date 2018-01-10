@@ -20,7 +20,6 @@ pages:
         # A little distraction to start
 
         Yadda yadda.
-
         {% from "macros.jinja" import youtube %}
         {{ youtube("QH2-TGUlwu4") }}
 
@@ -37,4 +36,4 @@ completion_text: |
 
     # End of Linear Algebra Recap
 
-    Now you're ready to take the [quiz](flow:quiz-test).
+    Now you're ready to take the [quiz](flow:quiz-test) or [ace this class](flow:end-of-semester)
